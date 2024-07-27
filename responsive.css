@@ -1,0 +1,78 @@
+@media only screen and (max-width: 768px) {
+    .btn_main{
+        position: relative;
+        bottom: 50px;
+        
+    }
+
+    .nav-item{
+        text-align: center;
+    }
+
+    .banner_taital{
+       
+        font-size: 40px;
+        text-align: center;
+        font-size: 40px;
+        line-height: 60px;
+        
+    } 
+
+    .contact_bt{
+        position: relative;
+        left: 90px;
+        display: flexbox;
+        
+    }
+
+    .navbar-toggler{
+        background-color: white;
+        margin-right: 50px;
+    }
+
+    .col-lg-3{
+        padding: 60px;
+    }
+
+    .about_text{
+        font-size: 20px;
+        padding: 10PX;
+    }
+
+    
+    
+}
+
+
+@media only screen and (min-width: 767px) {
+    .navbar-toggler{
+        background-color: white;
+    }
+
+    .nav-item{
+        text-align: center;
+    }
+
+    .banner_taital{
+        text-align: left;
+    }
+
+    .contact_bt{
+        position: relative;
+        left: 0;
+    }
+
+    
+   
+}
+
+
+@media only screen and (min-width: 767px) and (max-width:991px){
+    .col-lg-3{
+        width: 300px;
+        position: relative;
+        right: 20px;
+        padding: 40px;
+
+    }
+}
